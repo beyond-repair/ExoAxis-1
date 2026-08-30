@@ -85,3 +85,58 @@ Yes, extensively. While you cannot patent naturally occurring compounds (like ra
 The "world-breaking" element is turning psychedelic and plant-chemical science into a mainstream, non-intoxicating, weekly brain tune-up.
 
 From an IP perspective, while the philosophy is open science, the chemical architecture of ExoAxis-1 (the cleavable conjugate, biased agonist structure, and targeted delivery mechanisms) represents a multi-billion dollar, fully patentable drug platform.
+
+---
+
+## Technical Deep Dive: Biased Signaling Mechanisms
+
+Biased signaling (functional selectivity) is the ligand-dependent preferential activation of specific intracellular pathways downstream of the same G protein-coupled receptor (GPCR).
+
+### Core Mechanisms
+- GPCRs adopt ensembles of active conformations. Ligands stabilize distinct sub-states that differentially engage transducers.
+- Primary transducers for 5-HT₂A: Gq/11 (PLC → IP₃/Ca²⁺/PKC) and β-arrestin-2 (scaffolding of ERK1/2, Src, Akt; receptor internalization; endosomal signaling).
+- GRK phosphorylation "barcodes" on the C-terminus and intracellular loops determine β-arrestin affinity and conformation.
+- Bias can be transducer-class (G protein vs β-arrestin), subtype (Gq vs Gi), spatial (plasma-membrane vs intracellular pools), or temporal.
+
+### Relevance to Domain C
+Engineering Domain C as a β-arrestin-2-preferring or low-Gq-efficacy 5-HT₂A agonist enables sub-threshold neuroplasticity (BDNF release, dendritic spine growth, DMN flexibility) while remaining below the Gq activation threshold associated with hallucinogenic effects (head-twitch response in rodents; perceptual changes in humans). Recent data also implicate non-canonical Gi signaling in hallucinogenic liability, providing an additional design constraint.
+
+Key supporting observations:
+- Hallucinogenic ligands generally show high Gq efficacy.
+- Non-hallucinogenic or weakly hallucinogenic agonists (lisuride, certain engineered partial agonists, Ariadne-class compounds) display reduced Gq (and/or Gi) efficacy while retaining neuroplasticity markers in preclinical models.
+- β-arrestin-2 is required for serotonin-induced ERK activation in frontal cortex.
+
+## Structural Foundation: 5-HT₂A Cryo-EM Structures
+
+Multiple high-resolution cryo-EM structures of agonist-bound human 5-HT₂A in complex with mini-Gq, Gq, or Gi have been deposited (resolutions typically 2.6–3.5 Å).
+
+### Key Structural Features (Active State)
+- Outward displacement of TM6.
+- Conserved salt bridge between ligand cationic amine and D³·³².
+- Engagement of aromatic residues on TM5/TM6 (F⁵·⁴⁷, F⁵·⁴⁸, F⁶·⁵²).
+- Stabilization of the G-protein interface via ICL2 and TM5/TM6 contacts with the Gα α5 helix.
+
+### Ligand-Dependent Differences Linked to Bias
+| Feature | Observation | Bias Implication |
+|---------|-------------|------------------|
+| W⁶·⁴⁸ toggle switch & PIF motif | Unique contacts by N-benzylated or biased ligands alter rotamer states | Reduced Gq efficacy; β-arrestin preference |
+| Extended binding pocket (EBP) | Secondary binding modes (serotonin, psilocin); EBP-targeted designs | β-arrestin-biased agonists with low hallucinogenic liability |
+| ECL2 interactions | Distinct for mescaline | Chemotype-specific extracellular dynamics |
+| Gi vs Gq interface | Psychedelics can stabilize Gi-competent states; non-hallucinogenic analogues favor Gq-selective or reduced-Gi contacts | Gi contribution to hallucinogenic effects identified as design filter |
+| ICL2 hydrophobic residues | Critical for differential transducer coupling | Mutation can switch from Gq to arrestin preference |
+
+### Representative Structures
+- Tryptamines (5-HT, DMT, psilocin): 9ARX/9ARY, 9AS1/9AS2, 9AS7/9AS8
+- Ergolines (LSD, 2-Br-LSD/BOL): 9AS3/9AS4, 9ARZ/9AS0
+- Phenethylamines (mescaline, DOI, DOI-NBOMe): 9AS5/9AS6, 9LL7, 9LLB
+- Non-hallucinogenic / biased (Ariadne, RS130-180): 9LLA, 9AS9/9ASA
+- Landmark earlier structures: 6WHA, 7RAN
+
+These structures provide atomic-level constraints for rational design of Domain C: target W⁶·⁴⁸/PIF geometry or the EBP to minimize Gq/Gi efficacy while preserving β-arrestin-2 engagement and downstream plasticity pathways.
+
+### Limitations
+Current structures are predominantly G-protein complexes. A high-resolution 5-HT₂A–β-arrestin complex and characterization of intracellular receptor pools remain open research needs.
+
+---
+
+*Repository maintained as open science documentation of the ExoAxis-1 conceptual framework. Structural and pharmacological insights updated from peer-reviewed literature and PDB/EMDB entries (as of 2026).*
