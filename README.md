@@ -1,113 +1,86 @@
 # ExoAxis-1
 
-**Open-science framework for a multi-domain neuroprotective conjugate targeting longevity, sleep architecture, stress resilience, and cognitive plasticity.**
+**Open-science framework for a multi-domain neuroprotective conjugate** targeting longevity-adjacent sleep architecture, stress resilience, and cognitive plasticity.
 
 [![Status](https://img.shields.io/badge/status-conceptual-blue)](https://github.com/beyond-repair/ExoAxis-1)
 [![License](https://img.shields.io/badge/license-CC--BY--4.0-green)](LICENSE)
 [![Domain](https://img.shields.io/badge/focus-network%20pharmacology-purple)](https://github.com/beyond-repair/ExoAxis-1)
 
----
-
-## Overview
-
-ExoAxis-1 is a conceptual drug platform that integrates three functional domains into a single cleavable conjugate:
-
-- **Domain A** — Pineal-targeting polyphenol (anti-inflammatory / anti-calcification)
-- **Domain B** — CB₁ positive allosteric modulator (stress-circuit governor)
-- **Domain C** — Biased, non-hallucinogenic 5-HT₂A agonist (β-arrestin-2 preferential)
-
-The design prioritizes sub-threshold neuroplasticity, natural sleep restoration, and cortisol attenuation without intoxication, dependency, or residual sedation.
+**Lab:** [Atomic Dream Labs / beyond-repair](https://github.com/beyond-repair)
 
 ---
 
-## Practical Benefits
+## Purpose
 
-| Pillar | Mechanism | Expected Everyday Outcome |
-|--------|-----------|---------------------------|
-| **Sleep** | Protection of pineal tissue; reduction of micro-inflammation and calcification | Deeper slow-wave sleep, natural sleep onset, absence of morning residual effects |
-| **Stress** | Conditional enhancement of endocannabinoid tone via CB₁ PAM | Faster recovery from acute stressors, lower background anxiety, improved autonomic stability |
-| **Cognition** | Biased 5-HT₂A → β-arrestin-2 → BDNF / dendritic plasticity | Improved cognitive flexibility, memory retention, and emotional resilience |
-| **Safety** | Pathway-selective signaling; avoidance of high-efficacy Gq/Gi activation | No hallucinations, no euphoria, no tolerance or withdrawal liability |
+ExoAxis-1 records a **conceptual drug-design platform**: three functional domains joined as a cleavable conjugate, with emphasis on sub-threshold neuroplasticity and non-intoxicating pathway selection.
+
+This repository is an **open-science rationale and evidence map**. It is not a clinical protocol, pharmacy monograph, manufacturing batch record, or regulatory submission.
 
 ---
 
-## Core Paradigms
+## Domain architecture
 
-### 1. Exogenous Axis Deficiencies
-Many neuropsychiatric and age-related states (treatment-resistant depression, chronic burnout, pineal calcification, DMN hyper-rigidity) are reframed as deficits in evolutionarily expected plant-derived chemical inputs rather than purely intrinsic genetic or stochastic failures.
+| Domain | Intent |
+|--------|--------|
+| **A** | Pineal-targeting polyphenol (anti-inflammatory / anti-calcification orientation) |
+| **B** | CB₁ positive allosteric modulator (stress-circuit governor) |
+| **C** | Biased, non-hallucinogenic 5-HT₂A directionality (β-arrestin-2 preferential design goal) |
 
-### 2. Sub-Threshold Neuroplasticity
-Classical psychedelics achieve rapid plasticity via high-efficacy 5-HT₂A activation that also produces hallucinations. Domain C is engineered for biased signaling (β-arrestin-2 preferential / low Gq efficacy) to retain plasticity benefits while remaining below the perceptual threshold.
-
-### 3. Non-BBB Hardware Ports
-Instead of forcing molecules across the blood–brain barrier, the architecture exploits fenestrated, relatively unprotected vascular regions (pineal gland, median eminence) as natural intake and clearance ports for high-molecular-weight polyphenols.
-
----
-
-## Intellectual Property Landscape
-
-While the philosophical framework is released as open science, the concrete chemical architecture is highly patentable:
-
-1. **Composition of Matter** — Novel pro-drug conjugates linking Domains A–B–C; synthetic non-natural 5-HT₂A ligands.
-2. **Targeted Cleavable Linkers** — Esterase-sensitive bonds selective for fenestrated epithalamic capillaries.
-3. **Fixed-Dose Combinations & Synergy** — Specific stoichiometric ratios and demonstrated supra-additive effects.
-4. **Method of Use** — Treatment of defined indications (pineal calcification, treatment-resistant depression, age-related cognitive rigidity) via the network-attenuation protocol.
+Design priorities: support natural sleep architecture, attenuate stress load, encourage plasticity-related benefits **without** classical hallucinogenic liability, euphoria-seeking use, or residual sedation as product goals.
 
 ---
 
-## Technical Foundation
+## Practical benefit framing (hypotheses)
 
-### Biased Signaling at 5-HT₂A
+| Pillar | Mechanism theme | Intended everyday outcome (research target) |
+|--------|-----------------|-----------------------------------------------|
+| Sleep | Pineal micro-environment support | Deeper slow-wave support; natural onset; minimal next-day residual |
+| Stress | Conditional endocannabinoid tone via CB₁ PAM logic | Faster recovery from acute load; lower background anxiety |
+| Cognition | Biased 5-HT₂A → arrestin-leaning plasticity pathways | Flexibility and resilience without perceptual overdose |
+| Safety | Pathway-selective signaling | Avoid high-efficacy hallucinogenic profiles |
 
-GPCRs stabilize ensembles of active conformations. Ligands can preferentially engage:
-
-- **Gq/11** → PLC → IP₃ / Ca²⁺ / PKC (canonical pathway strongly linked to hallucinogenic liability)
-- **β-arrestin-2** → ERK, Src, Akt scaffolding, endosomal signaling, and downstream BDNF induction
-
-Additional considerations:
-- GRK phosphorylation barcodes gate β-arrestin recruitment and conformation.
-- Non-canonical Gi signaling has been implicated in hallucinogenic effects in recent structural and pharmacological studies.
-- Spatial bias (plasma-membrane vs intracellular receptor pools) may further dissociate plasticity from perception.
-
-Domain C is therefore specified as a low-Gq / low-Gi / β-arrestin-2-preferring agonist.
-
-### Structural Constraints from Cryo-EM
-
-High-resolution cryo-EM structures of agonist-bound 5-HT₂A (mini-Gq, Gq, and Gi complexes; typical resolution 2.6–3.5 Å) supply atomic-level design rules:
-
-**Conserved active-state features**
-- Outward movement of TM6
-- Salt bridge between ligand amine and D³·³²
-- Aromatic stacking involving F⁵·⁴⁷, F⁵·⁴⁸, F⁶·⁵²
-
-**Ligand-dependent features linked to bias**
-
-| Structural Element              | Observation                                      | Design Implication                          |
-|---------------------------------|--------------------------------------------------|---------------------------------------------|
-| W⁶·⁴⁸ toggle switch / PIF motif | Altered by N-benzylated and biased ligands       | Reduce Gq efficacy                          |
-| Extended binding pocket (EBP)   | Secondary poses (5-HT, psilocin); EBP-targeted designs | Favor β-arrestin bias                   |
-| ECL2                            | Chemotype-specific (e.g., mescaline)             | Extracellular selectivity handle            |
-| Gi vs Gq interface              | Distinct contacts in psychedelic vs non-hallucinogenic ligands | Additional filter against Gi competence |
-| ICL2                            | Hydrophobic residues differentially affect transducers | Switch Gq ↔ arrestin preference         |
-
-**Representative PDB entries**  
-Tryptamines: 9ARX, 9AS1, 9AS7  
-Ergolines: 9AS3, 9ARZ  
-Phenethylamines: 9AS5, 9LL7, 9LLB  
-Non-hallucinogenic / biased: 9LLA (Ariadne), 9AS9 (RS130-180)  
-Landmark: 6WHA, 7RAN
-
-These structures enable rational minimization of Gq/Gi efficacy while preserving β-arrestin-2 engagement.
+All outcome language is **aspirational science framing**, not proven clinical efficacy.
 
 ---
 
-## Repository Status
+## Core paradigms
 
-This repository serves as the living open-science record of the ExoAxis-1 conceptual framework, its mechanistic rationale, and the structural/pharmacological evidence base supporting Domain C.  
-It is not a clinical protocol, manufacturing specification, or regulatory submission.
-
-**Last major update:** August 2026 — incorporation of biased-signaling synthesis and 5-HT₂A cryo-EM catalogue.
+1. **Exogenous axis deficiencies** — Some chronic stress / rigidity presentations can be framed partly as missing evolutionarily familiar chemical inputs, not only intrinsic failure.  
+2. **Sub-threshold neuroplasticity** — Seek plasticity-related signaling while remaining below perceptual intoxication thresholds.  
+3. **Non-BBB hardware ports** — Prefer physiologically permeable ports (e.g., fenestrated regions such as pineal-related vasculature) over naïve “force everything across the BBB” design stories.
 
 ---
 
-*Released under Creative Commons Attribution 4.0 International (CC-BY-4.0). Citation of the repository and underlying primary literature is requested.*
+## Technical foundation (summary)
+
+Domain C specification targets **low Gq / low Gi / β-arrestin-2-preferring** profiles relative to classical psychedelic agonists. Structural intuition draws on public cryo-EM and pharmacology literature for 5-HT₂A (toggle switch / PIF, extended binding pocket, transducer interfaces). Representative public structure IDs and ligand classes are catalogued in prior revisions of this document for researcher navigation — always verify against primary PDB and papers before use in design work.
+
+---
+
+## Intellectual property note
+
+The philosophical and pedagogical framework is released as open science (CC-BY-4.0). Concrete chemical matter, linkers, ratios, and methods may be independently patentable; this README does not grant patent rights and does not publish a enabling CMC package.
+
+---
+
+## Scope (claim-capped)
+
+| May claim | Must not claim |
+|-----------|----------------|
+| Conceptual architecture and literature-backed design rationale | Human efficacy, safety, or dosing |
+| Open research utility | FDA/EMA approval path completeness |
+| Structural/pharmacology bibliography support | “Ready to synthesize and take” instructions |
+
+---
+
+## Portfolio position
+
+ExoAxis-1 is a **science pillar**, independent of agent runtimes (sunder/SEEM) and games (Cold Boot). Do not conflate it with control-theory or robotics “axis” frameworks.
+
+---
+
+## Citation
+
+If you build on this framework, cite the repository and the underlying primary literature.
+
+*Released under Creative Commons Attribution 4.0 International (CC-BY-4.0).*
