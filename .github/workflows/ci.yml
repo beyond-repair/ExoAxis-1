@@ -1,0 +1,24 @@
+name: docs-ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  presence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assert docs-only research tree
+        run: |
+          test -f README.md
+          test -f RESEARCH.md
+          test -f LICENSE
+          test ! -e src
+          test ! -e dose.md
+          test ! -e synthesis.md
+          echo "docs-only presence check; not pharmacology or clinical validation"

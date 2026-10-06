@@ -40,3 +40,9 @@ Not ACTIVE: no CI, tests, or demonstrated software.
 
 Do not add synthesis instructions, dose tables, or manufacturing content.
 Do not invent a code tree to satisfy completeness optics.
+
+## Sweep-257 recheck (2026-10-06)
+
+Pre-sweep head `72957022135437a6782c126f62f5fc7b46508c9f` still had README, RESEARCH.md, and LICENSE only. No `src`. No dose or synthesis file. Sweep-085 lock retained.
+
+This sweep adds `.github/workflows/ci.yml` as a presence check only. A green docs-ci run is not a pharmacology implementation, not a clinical result, and not claim elevation. Classification remains RESEARCH. Claim remains ≤ 1.
